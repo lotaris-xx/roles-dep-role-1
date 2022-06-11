@@ -1,0 +1,5 @@
+---
+# tasks file for dep_role_1
+- name: We are in dep-role-1
+  ansible.builtin.debug:
+    msg: We are in dependent role dep-role-1
